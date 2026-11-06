@@ -14,14 +14,17 @@ main {
   #big-box {
     display: flex;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 360px;
     width: 560px;
     background-color: white;
     border: 3px solid black;
      .corner-box {
         position: absolute;
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
         background-color: rgb(148, 5, 5);
         z-index: 1;
         &#top-left {
@@ -41,24 +44,40 @@ main {
           left: 0;
         }
       
-        
-        }
+     }
       .yellow-box {
         position: absolute;
-        height: 130px;
-        width: 130px;
-        background-color: gold;
+        height: 120px;
+        width: 120px;
+        background-color: yellow;
         z-index: 0;
         top: 0;
         right: 0;
+      }
 
+      .green-box {
 
-    }
-        
-  
+        height: 80px;
+        width: 400px;
+        background-color: white;
+        border: 3px solid green;
 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
 
-  
+        .circle {
+          
+          height: 80px;
+          width: 80px;
+          background-color: green;
+          border-radius: 50%;
+
+          }
+        }
+
+      }
+
 
   }
 
@@ -66,5 +85,4 @@ main {
 footer {
   text-align: center;
   padding: 15px;
-}
 }
