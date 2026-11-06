@@ -12,15 +12,27 @@ main {
   height: 75vh;
   border: 1px solid darkgray;
   #big-box {
-    
+    display: flex;
     position: relative;
     height: 360px;
     width: 560px;
     background-color: white;
     border: 3px solid black;
+     .corner-box {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(148, 5, 5);
+        
+        }
+      
+        
+        }
+
+
+      }
 
   }
-}
 
 /* Footer */
 footer {
