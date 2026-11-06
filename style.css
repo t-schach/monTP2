@@ -1,13 +1,29 @@
 /* Header */
 header {
   text-align: center;
+  padding: 15px;
 }
 /* main */
 main {
-  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  height: 75vh;
+  border: 1px solid darkgray;
+  #big-box {
+    
+    position: relative;
+    height: 360px;
+    width: 560px;
+    background-color: white;
+    border: 3px solid black;
+
+  }
 }
 
 /* Footer */
 footer {
   text-align: center;
+  padding: 15px;
 }
