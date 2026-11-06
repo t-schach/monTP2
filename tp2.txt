@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <link rel="stylesheet" href="TP2.index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>En-tête de page</h1>
+    </header>
+    <main>
+      <div id="big-box">
+        <div class="corner-box"></div>
+        <div class="corner-box"></div>
+        <div class="corner-box"></div>
+        <div class="corner-box"></div>
+        <div class="yellow-box"></div>
+        <div class="green-box">
+          <div class="first-circle"></div>
+          <div class="second-circle"></div>
+          <div class="fird-circle"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Pied de page</p>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+/* Header */
+.header {
+  text-align: center;
+}
+/* main */
+.main {
+  background-color: darkgrey;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+}
