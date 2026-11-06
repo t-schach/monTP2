@@ -23,6 +23,7 @@ main {
         height: 100px;
         width: 100px;
         background-color: rgb(148, 5, 5);
+        z-index: 1;
         &#top-left {
           top: 0;
           left: 0;
@@ -42,15 +43,22 @@ main {
       
         
         }
-      .yellow-box
+      .yellow-box {
         position: absolute;
+        height: 130px;
+        width: 130px;
+        background-color: gold;
         z-index: 0;
-        height: 120px;
-        width: 12Opx;
-        background-color: yellow;
+        top: 0;
+        right: 0;
 
 
-      }
+    }
+        
+  
+
+
+  
 
   }
 
@@ -58,4 +66,5 @@ main {
 footer {
   text-align: center;
   padding: 15px;
+}
 }
